@@ -4,6 +4,8 @@
  * 991592661
  */
 package ca.sheridancollege.week3.softwarefundamentals.ice1;
+import java.util.Random;
+import java.util.Scanner;
 
 /**
  * A class that fills a magic hand of 7 cards with random Card Objects
