@@ -44,6 +44,8 @@ public class CardTrick {
         int num = in.nextInt();
         
         CheckChoice(magicHand, suit, num);
+        
+        private static void CheckChoice(Card[] magicHand, String suit, int num) {
         // and search magicHand here
         //Then report the result here
     }
