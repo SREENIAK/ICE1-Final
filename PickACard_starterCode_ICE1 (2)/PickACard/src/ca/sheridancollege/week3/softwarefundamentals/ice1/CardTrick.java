@@ -44,11 +44,19 @@ public class CardTrick {
         int num = in.nextInt();
         
         CheckChoice(magicHand, suit, num);
-        
+    }
         private static void CheckChoice(Card[] magicHand, String suit, int num) 
         {
         String result = "";
-// and search magicHand here
+        // and search magicHand here
+        for (Card card : magicHand) 
+        {
+            if (card.getSuit().equals(suit) && card.getValue() == num) {
+                result = "You Win!!!";
+            } else {
+                result = "Try Again Next Time :(";
+            }
+        }
         //Then report the result here
     }
     
