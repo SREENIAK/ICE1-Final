@@ -45,8 +45,10 @@ public class CardTrick {
         
         CheckChoice(magicHand, suit, num);
         
-        private static void CheckChoice(Card[] magicHand, String suit, int num) {
-        // and search magicHand here
+        private static void CheckChoice(Card[] magicHand, String suit, int num) 
+        {
+        String result = "";
+// and search magicHand here
         //Then report the result here
     }
     
